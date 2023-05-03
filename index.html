@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MusicApp</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-list flex">
+                <li class="navbar-link logo flex"><a href="#">
+                        <img src="./logo.png" alt="spotify">
+                    </a>Spotify</li>
+                <li class="navbar-link"><a href="#">Home</a></li>
+                <li class="navbar-link"><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- container section  -->
+
+        <div class="container flex">
+            <div class="left">
+                <h2>NCS - NoCopyRightSongs</h2>
+
+                <div class="song-container">
+
+                    <div class="song-item flex"><img  alt="image"> <span class="song-name">let me love you</span></span> <span class="timestamp">3:00</span>
+                            <i id="7" class="fa-solid fa-circle-play song-play-btn"></i></span>
+                    </div>
+                    <div class="song-item flex"><img  alt="image"> <span class="song-name">venom </span><span class="timestamp">3:00</span>
+                            <i id="1" class="fa-solid fa-circle-play song-play-btn"></i></span>
+                    </div>
+                    <div class="song-item flex"><img  alt="image"> <span class="song-name">venom </span><span class="timestamp">3:00</span>
+                            <i id="2" class="fa-solid fa-circle-play song-play-btn"></i></span>
+                    </div>
+                    <div class="song-item flex"><img  alt="image"> <span class="song-name">venom </span><span class="timestamp">3:00</span>
+                            <i id="3" class="fa-solid fa-circle-play song-play-btn"></i></span>
+                    </div>
+                    <div class="song-item flex"><img  alt="image"> <span class="song-name">venom </span><span class="timestamp">3:00</span>
+                            <i id="4" class="fa-solid fa-circle-play song-play-btn"></i></span>
+                    </div>
+                    <div class="song-item flex"><img  alt="image"> <span class="song-name">venom </span><span class="timestamp">3:00</span>
+                            <i id="5" class="fa-solid fa-circle-play song-play-btn"></i></span>
+                    </div>
+                </div>
+            </div>
+        <div class="right"></div>
+            
+        </div>
+
+
+        <!-- botton play section -->
+
+        <div class="play-section flex">
+            <input type="range" id="progressbar" value="0" min="0" max="100" />
+            <div class="icon">
+                <i class="fa-solid fa-3x fa-backward-step " id="previous" ></i>
+                <i class="fa-solid fa-3x  fa-circle-play  " id="playbtn"></i>
+                <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+                <div id="gif" class="gif1"><img src="./playing.gif" alt="image"></div>
+                <div id="song-info">Ncs 1.mp3</div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d211e9f474.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
